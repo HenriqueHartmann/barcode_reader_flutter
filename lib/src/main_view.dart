@@ -4,14 +4,14 @@ import 'package:barcode_reader_flutter/src/method_channel_client.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class MainView extends StatefulWidget {
+  const MainView({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<MainView> createState() => _MainViewState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MainViewState extends State<MainView> {
   final barCodeEC = TextEditingController();
   final loadingController = LoadingController();
   final barCodeReaderClient = BarcodeReaderClient();
